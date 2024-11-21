@@ -58,11 +58,11 @@ header {
   grid-template-columns: 1fr;
   justify-items: center;
 }
-header h1 {
+header > h1 {
   grid-row: 1/2;
   grid-column: 1/2;
 }
-header nav {
+header > nav {
   background-color: rgb(40, 40, 40);
   grid-row: 2/3;
   grid-column: 1/2;
@@ -76,10 +76,10 @@ header nav {
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
-header nav > a, header nav > a:visited, header nav > a:hover {
+header > nav > a, header > nav > a:visited, header > nav > a:hover {
   color: rgb(191, 244, 248);
   text-decoration: none;
 }
-header nav > a:hover {
+header > nav > a:hover {
   font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
