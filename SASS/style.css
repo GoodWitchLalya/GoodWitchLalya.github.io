@@ -52,12 +52,17 @@ body {
   color: rgb(195, 132, 224);
 }
 
+a, a:visited, a:hover {
+  text-decoration: none;
+  color: rgb(195, 132, 224);
+}
+
 header {
   width: 100%;
   height: auto;
   display: grid;
   grid-template-rows: 1fr 54px;
-  grid-template-columns: 1fr 300px 1fr;
+  grid-template-columns: 1fr 400px 1fr;
   justify-items: center;
 }
 header > h1 {
@@ -80,7 +85,6 @@ header > nav {
 }
 header > nav > a, header > nav > a:visited, header > nav > a:hover {
   color: rgb(191, 244, 248);
-  text-decoration: none;
   height: -moz-min-content;
   height: min-content;
 }
@@ -102,4 +106,7 @@ section {
 }
 section table td {
   padding-right: 10px;
+}
+section table td > b {
+  color: rgb(255, 252, 221);
 }/*# sourceMappingURL=style.css.map */
