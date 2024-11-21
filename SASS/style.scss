@@ -6,7 +6,7 @@ $tertiaryColor: rgb(191, 244, 248);
 $fourthColor: rgb(184, 184, 184);
 
 $primaryBackgroundColor: rgb(19, 19, 19);
-$secondaryBackgroundColor: rgb(43, 43, 43);
+$secondaryBackgroundColor: rgb(40, 40, 40);
 $tertiaryBackgroundColor: rgb(73, 0, 107);
 $fourthBackgroundColor: rgb(19, 1, 97);
 
@@ -63,22 +63,42 @@ body {
     
 }
 
-nav {
-    background-color: $secondaryBackgroundColor;
+header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
     
-    height: fit-content;
-    width: fit-content;
-    padding: 10px;
-    align-items: center;
-    align-content: center;
+    h1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
     
-    display: flex;
-    column-gap: 10px;
-    
-    > a, > a:visited, > a:hover {
-        color: $tertiaryColor;
-        text-decoration: none;
+    nav {
+        background-color: $secondaryBackgroundColor;
         
+        grid-row: 2/3;
+        grid-column: 1/2;
         
+        height: 30px;
+        width: 300px;
+        padding: 10px 20px;
+        align-items: center;
+        align-content: center;
+        border-radius: 15px;
+        
+        display: flex;
+        column-gap: 10px;
+        
+        > a, > a:visited, > a:hover {
+            color: $tertiaryColor;
+            text-decoration: none;
+            
+        }
+        
+        > a:hover {
+            font-size: 1.2rem;
+        }
     }
 }
+

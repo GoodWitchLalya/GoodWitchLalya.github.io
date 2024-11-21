@@ -52,20 +52,34 @@ body {
   color: rgb(195, 132, 224);
 }
 
-nav {
-  background-color: rgb(43, 43, 43);
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 10px;
+header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+header h1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+header nav {
+  background-color: rgb(40, 40, 40);
+  grid-row: 2/3;
+  grid-column: 1/2;
+  height: 30px;
+  width: 300px;
+  padding: 10px 20px;
   align-items: center;
   align-content: center;
+  border-radius: 15px;
   display: flex;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
-nav > a, nav > a:visited, nav > a:hover {
+header nav > a, header nav > a:visited, header nav > a:hover {
   color: rgb(191, 244, 248);
   text-decoration: none;
+}
+header nav > a:hover {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
