@@ -1,7 +1,14 @@
-$mainBackgroundColor: rgb(19, 19, 19);
-$mainColor: rgb(221, 221, 221);
-$secondaryColor: rgb(73, 0, 107);
+// Colors
+
+$primaryColor: rgb(221, 221, 221);
+$secondaryColor: rgb(195, 132, 224);
+$tertiaryColor: rgb(191, 244, 248);
+$fourthColor: rgb(184, 184, 184);
+
+$primaryBackgroundColor: rgb(19, 19, 19);
 $secondaryBackgroundColor: rgb(54, 54, 54);
+$tertiaryBackgroundColor: rgb(73, 0, 107);
+$fourthBackgroundColor: rgb(19, 1, 97);
 
 // .noto-sans-jp-light<uniquifier>
 // <uniquifier>: Use a unique and descriptive class name
@@ -51,13 +58,27 @@ $secondaryBackgroundColor: rgb(54, 54, 54);
 }
 
 body {
-    background-color: $mainBackgroundColor;
-    color: $mainColor;
+    background-color: $primaryBackgroundColor;
+    color: $secondaryColor;
     
 }
 
 nav {
     background-color: $secondaryBackgroundColor;
-    color: $mainColor;
     
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    
+    display: flex;
+    column-gap: 10px;
+    
+    a, a:visited, a:hover {
+        color: $tertiaryColor;
+        text-decoration: none;
+        
+        
+    }
 }
