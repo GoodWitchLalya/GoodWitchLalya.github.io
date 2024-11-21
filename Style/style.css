@@ -1,0 +1,58 @@
+.noto-sans-jp-veryLight {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+}
+
+.noto-sans-jp-light {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.noto-sans-jp-mediumLight {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
+
+.noto-sans-jp-medium {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-jp-mediumHeavy {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}
+
+.noto-sans-jp-heavy {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.noto-sans-jp-veryHeavy {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 850;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(19, 19, 19);
+  color: rgb(221, 221, 221);
+}
+
+nav {
+  background-color: rgb(54, 54, 54);
+  color: rgb(221, 221, 221);
+}/*# sourceMappingURL=style.css.map */
