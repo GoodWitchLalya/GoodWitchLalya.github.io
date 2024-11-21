@@ -53,21 +53,22 @@ body {
 }
 
 header {
+  width: 100%;
+  height: auto;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr minmax(300px, 3fr) 1fr;
   justify-items: center;
 }
 header > h1 {
   grid-row: 1/2;
-  grid-column: 1/2;
+  grid-column: 1/4;
 }
 header > nav {
   background-color: rgb(40, 40, 40);
   grid-row: 2/3;
-  grid-column: 1/2;
-  height: 30px;
-  width: 300px;
+  grid-column: 2/3;
+  min-width: 300px;
   padding: 10px 20px;
   align-items: center;
   align-content: center;
@@ -82,4 +83,13 @@ header > nav > a, header > nav > a:visited, header > nav > a:hover {
 }
 header > nav > a:hover {
   font-size: 1.2rem;
+}
+
+section {
+  background-color: rgb(40, 40, 40);
+  color: rgb(221, 221, 221);
+  width: 1fr;
+  min-height: 200px;
+  border-radius: 10px;
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
