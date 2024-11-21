@@ -1,5 +1,6 @@
-// Colors
+// Variables
 
+// Colors
 $primaryColor: rgb(221, 221, 221);
 $secondaryColor: rgb(195, 132, 224);
 $tertiaryColor: rgb(191, 244, 248);
@@ -67,8 +68,8 @@ header {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr minmax(300px, 3fr) 1fr;
+    grid-template-rows: 54px;
+    grid-template-columns: 1fr 300px 1fr;
     justify-items: center;
     
     > h1 {
@@ -82,23 +83,30 @@ header {
         grid-row: 2/3;
         grid-column: 2/3;
         
-        min-width: 300px;
+        width: 100%;
+        height: auto;
         padding: 10px 20px;
         align-items: center;
-        align-content: center;
         border-radius: 15px;
+        border-style: solid;
+        border-color: $secondaryColor;
         
         display: flex;
-        column-gap: 10px;
+        flex-wrap: wrap;
         
         > a, > a:visited, > a:hover {
             color: $tertiaryColor;
             text-decoration: none;
+            height: min-content;
             
         }
         
         > a:hover {
             font-size: 1.2rem;
+        }
+        
+        > hr {
+            
         }
     }
 }
@@ -108,7 +116,15 @@ section {
     color: $primaryColor;
     width: 1fr;
     min-height: 200px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 2px;
+    border-style: solid;
+    border-color: $secondaryColor;
     margin: 20px;
+    
+    h1 {
+        text-align: center;
+        
+    }
 }
 

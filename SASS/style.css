@@ -56,8 +56,8 @@ header {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr minmax(300px, 3fr) 1fr;
+  grid-template-rows: 54px;
+  grid-template-columns: 1fr 300px 1fr;
   justify-items: center;
 }
 header > h1 {
@@ -68,28 +68,36 @@ header > nav {
   background-color: rgb(40, 40, 40);
   grid-row: 2/3;
   grid-column: 2/3;
-  min-width: 300px;
+  width: 100%;
+  height: auto;
   padding: 10px 20px;
   align-items: center;
-  align-content: center;
   border-radius: 15px;
+  border-style: solid;
+  border-color: rgb(195, 132, 224);
   display: flex;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  flex-wrap: wrap;
 }
 header > nav > a, header > nav > a:visited, header > nav > a:hover {
   color: rgb(191, 244, 248);
   text-decoration: none;
+  height: -moz-min-content;
+  height: min-content;
 }
 header > nav > a:hover {
   font-size: 1.2rem;
 }
-
 section {
   background-color: rgb(40, 40, 40);
   color: rgb(221, 221, 221);
   width: 1fr;
   min-height: 200px;
-  border-radius: 10px;
+  border-radius: 15px;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(195, 132, 224);
   margin: 20px;
+}
+section h1 {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
