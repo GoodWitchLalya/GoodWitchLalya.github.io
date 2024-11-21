@@ -97,7 +97,9 @@ section {
   border-style: solid;
   border-color: rgb(195, 132, 224);
   margin: 20px;
-}
-section h1 {
   text-align: center;
+  justify-items: center;
+}
+section table td {
+  padding-right: 10px;
 }/*# sourceMappingURL=style.css.map */
