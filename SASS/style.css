@@ -26,14 +26,14 @@
   font-style: normal;
 }
 
-.noto-sans-jp-mediumHeavy {
+.noto-sans-jp-mediumHeavy, header > nav {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 550;
   font-style: normal;
 }
 
-.noto-sans-jp-heavy {
+.noto-sans-jp-heavy, header > h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -50,6 +50,15 @@
 body {
   background-color: rgb(19, 19, 19);
   color: rgb(195, 132, 224);
+  height: 100vh;
+  margin: 0px;
+}
+
+.content {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto repeat(1, 1fr) auto;
+  grid-template-columns: 1fr;
 }
 
 a, a:visited, a:hover {
@@ -58,6 +67,8 @@ a, a:visited, a:hover {
 }
 
 header {
+  grid-row: 1/2;
+  grid-column: 1/2;
   width: 100%;
   height: auto;
   display: grid;
@@ -81,7 +92,8 @@ header > nav {
   border-style: solid;
   border-color: rgb(195, 132, 224);
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 header > nav > a, header > nav > a:visited, header > nav > a:hover {
   color: rgb(191, 244, 248);
@@ -91,16 +103,18 @@ header > nav > a, header > nav > a:visited, header > nav > a:hover {
 header > nav > a:hover {
   font-size: 1.2rem;
 }
+
+.mainSection {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
 section {
   background-color: rgb(40, 40, 40);
   color: rgb(221, 221, 221);
   width: 1fr;
   min-height: 200px;
-  border-radius: 15px;
-  border: 2px;
-  border-style: solid;
-  border-color: rgb(195, 132, 224);
-  margin: 20px;
+  margin: 20px 20px;
   text-align: center;
   justify-items: center;
 }
@@ -109,4 +123,43 @@ section table td {
 }
 section table td > b {
   color: rgb(255, 252, 221);
+}
+
+footer {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  background-color: rgb(40, 40, 40);
+  color: rgba(158, 158, 158, 0.5);
+  width: 1fr;
+  min-height: 100px;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+.highlightedBorder, section, footer {
+  border-radius: 15px;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(195, 132, 224);
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr auto 1fr;
+    width: 1fr;
+  }
+  header nav {
+    flex-flow: column wrap;
+  }
+  header nav > a, header nav > a:visited, header nav > a:hover {
+    color: rgb(191, 244, 248);
+    height: -moz-min-content;
+    height: min-content;
+    font-size: 1.7rem;
+  }
+  header nav > a:hover {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
