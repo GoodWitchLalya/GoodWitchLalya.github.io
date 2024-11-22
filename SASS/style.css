@@ -12,14 +12,14 @@
   font-style: normal;
 }
 
-.noto-sans-jp-mediumLight {
+.noto-sans-jp-mediumLight, section {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 250;
   font-style: normal;
 }
 
-.noto-sans-jp-medium {
+.noto-sans-jp-medium, footer, section h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -104,7 +104,7 @@ header > nav > a:hover {
   font-size: 1.2rem;
 }
 
-.mainSection {
+main {
   grid-row: 2/3;
   grid-column: 1/2;
 }
@@ -114,7 +114,8 @@ section {
   color: rgb(221, 221, 221);
   width: 1fr;
   min-height: 200px;
-  margin: 20px 20px;
+  padding: 20px;
+  margin: 20px;
   text-align: center;
   justify-items: center;
 }
@@ -144,22 +145,41 @@ footer {
   border-color: rgb(195, 132, 224);
 }
 
+.contacts > .contact {
+  margin: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.contacts > .contact p {
+  margin: 10px 10px;
+}
+
 @media only screen and (max-width: 500px) {
   header {
     grid-template-rows: 1fr auto;
     grid-template-columns: 1fr auto 1fr;
     width: 1fr;
   }
-  header nav {
+  header > nav {
+    width: 200px;
+    height: 220px;
     flex-flow: column wrap;
   }
-  header nav > a, header nav > a:visited, header nav > a:hover {
+  header > nav > a, header > nav > a:visited, header > nav > a:hover {
     color: rgb(191, 244, 248);
     height: -moz-min-content;
     height: min-content;
     font-size: 1.7rem;
   }
-  header nav > a:hover {
+  header > nav > a:hover {
     font-size: 2rem;
+  }
+  .contacts > .contact {
+    margin: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .contacts > .contact p {
+    margin: 5px;
   }
 }/*# sourceMappingURL=style.css.map */
