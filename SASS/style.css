@@ -12,28 +12,28 @@
   font-style: normal;
 }
 
-.noto-sans-jp-mediumLight, section {
+.noto-sans-jp-mediumLight, section, h6, h5 {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 250;
   font-style: normal;
 }
 
-.noto-sans-jp-medium, footer, section h1 {
+.noto-sans-jp-medium, footer, section h1, h4, h3 {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.noto-sans-jp-mediumHeavy, header > nav {
+.noto-sans-jp-mediumHeavy, header > nav, h2 {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 550;
   font-style: normal;
 }
 
-.noto-sans-jp-heavy, header > h1 {
+.noto-sans-jp-heavy, header > h1, h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -52,6 +52,37 @@ body {
   color: rgb(195, 132, 224);
   height: 100vh;
   margin: 0px;
+}
+
+h3 {
+  color: rgb(195, 132, 224);
+}
+
+h4 {
+  color: rgb(195, 132, 224);
+}
+
+h5 {
+  color: rgb(195, 132, 224);
+}
+
+h6 {
+  color: rgb(195, 132, 224);
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0px;
+}
+
+p i {
+  color: rgba(158, 158, 158, 0.5);
+}
+p b {
+  color: rgb(191, 244, 248);
+}
+p strong {
+  color: rgb(195, 132, 224);
 }
 
 .content {
@@ -115,7 +146,7 @@ section {
   width: 1fr;
   min-height: 200px;
   padding: 20px;
-  margin: 20px;
+  margin: 30px 5%;
   text-align: center;
   justify-items: center;
 }
@@ -133,7 +164,7 @@ footer {
   color: rgba(158, 158, 158, 0.5);
   width: 1fr;
   min-height: 100px;
-  margin: 20px;
+  margin: 30px 5%;
   text-align: center;
   align-content: center;
 }
