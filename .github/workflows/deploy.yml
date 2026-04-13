@@ -2,8 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches: [ main ] # Cambiato da main a master
 
 permissions:
   contents: read
@@ -14,14 +13,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Install, build, and upload site
-        uses: withastro/action@v2
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          package-manager: npm
-
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: './Content/package-lock.json'
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./Content # Indica dove sono i file
+      - name: Build Astro
+        run: npm run build
+        working-directory: ./Content # Indica dove sono i file
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./Content/dist
   deploy:
     needs: build
     runs-on: ubuntu-latest
