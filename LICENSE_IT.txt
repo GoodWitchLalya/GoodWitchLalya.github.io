@@ -1,0 +1,140 @@
+GCWLv1 - General Cooperative Working License version 1
+
+Copyright (c) 2026 GoodWitchLalya.
+Tutti i diritti riservati, salvo quanto espressamente concesso di seguito.
+
+Il codice è aperto per lo studio personale; a questo scopo nessuna restrizione è applicata.
+Tuttavia, non saranno tollerati cloni diretti o concorrenza sleale.
+
+TERMINI E CONDIZIONI D'USO E DISTRIBUZIONE
+
+1. Uso e Modifica Privata
+È concessa la libertà di scaricare, studiare, compilare e modificare il codice sorgente per uso esclusivamente personale, di ricerca, o interno a scopi rigorosamente non commerciali.
+L'uso interno è limitato esclusivamente alla singola entità giuridica che ha effettuato il download originale.
+L’accesso al software da parte di consulenti esterni, freelance o fornitori di servizi IT, operanti esclusivamente per conto dell'entità giuridica licenziataria e vincolati da accordi di riservatezza, è consentito e non costituisce distribuzione ai sensi del Punto 2.
+Il trasferimento del software a società controllate, collegate, sussidiarie o a terzi (anche in caso di fusione, acquisizione o cessione di ramo d'azienda) è considerato distribuzione ai sensi del Punto 2.
+La libertà di studio del codice non autorizza in alcun modo l'utilizzo della logica, degli algoritmi o dell'architettura appresi per scopi di ingegneria inversa volti alla creazione di prodotti concorrenti, anche qualora il codice finale non costituisca un derivato diretto.
+È espressamente vietato l'utilizzo del codice sorgente, in tutto o in parte, per l'addestramento di modelli di intelligenza artificiale, machine learning o Large Language Models (LLM) senza un preventivo accordo commerciale scritto.
+
+2. Trasformazione Significativa e Divieto di Concorrenza
+Fatta eccezione per le Modifiche Dipendenti (Mod) come disciplinato in questa licenza, non è consentita la distribuzione (pubblica o privata, gratuita o commerciale) del software originale o di sue versioni modificate, a meno che non sia stata applicata una trasformazione significativa.
+L'offerta del software o delle sue funzioni come servizio a terzi tramite un'interazione di rete remota (es. SaaS, API, servizi web) è considerata a tutti gli effetti come distribuzione e sottostà alle medesime regole.
+
+Il prodotto finale distribuito (o offerto come servizio) deve risultare chiaramente distinguibile dall'originale, non riconoscibile come derivato diretto e non deve in alcun modo porsi in concorrenza con il prodotto originale.
+Ai fini di questa licenza, per concorrenza (o concorrenza sleale) si intende il proporre le stesse funzionalità principali (core features) al medesimo pubblico di riferimento dell'originale, o qualsiasi utilizzo che possa porsi come sostituto commerciale o funzionale per l'adozione del software originale.
+
+Semplici aggiornamenti, traduzioni, risoluzione di bug o l'aggiunta di funzionalità secondarie a un nucleo invariato non costituiscono una trasformazione significativa.
+
+Qualsiasi contributo (codice, asset, documentazione) inviato volontariamente per l'integrazione diretta nel progetto originale comporta la concessione all'autore di una licenza perpetua, irrevocabile, mondiale, gratuita e non esclusiva.
+
+Questa licenza include esplicitamente il diritto per l'autore di utilizzare, modificare, distribuire, sfruttare commercialmente e sub-licenziare tale contributo in qualsiasi forma e sotto qualsiasi futuro accordo commerciale. Tale concessione è definitiva e non può essere ritirata, al fine di garantire la stabilità dell'intero software.
+
+Allo stesso tempo, si intende valorizzare il lavoro della community: chi contribuisce mantiene in toto la proprietà intellettuale (copyright) del proprio materiale originale e conserva il diritto di utilizzarlo in altri progetti personali o commerciali. L'autore si impegna a riconoscere pubblicamente ogni contributo valido inserendo chi lo ha realizzato nei crediti ufficiali del software.
+
+È vietato qualsiasi tentativo di aggirare le limitazioni della presente licenza, in particolare per quanto riguarda il divieto di concorrenza, tramite il frazionamento del codice, l'utilizzo di schermi societari o accordi collaterali tra diverse entità giuridiche.
+
+Le limitazioni riguardanti la concorrenza e l'uso commerciale si estendono anche a qualsiasi output, dato o risultato generato direttamente dal software o tramite l'applicazione delle sue logiche proprietarie.
+
+2.1 Eccezione per il Modding (Modifiche Dipendenti)
+È esplicitamente autorizzata la creazione e la distribuzione di estensioni, add-on, plugin o modifiche (di seguito denominate "Mod") che si appoggiano al software originale per le loro funzionalità, a condizione che:
+
+La Mod sia strutturalmente dipendente: non deve in alcun caso includere l'eseguibile principale del software.
+
+L'utilizzo di asset originali è consentito con obbligo di attribuzione e divieto di rivendicarne la paternità.
+
+La Mod non sia un sostituto commerciale o funzionale del software originale.
+
+Donazioni e Accesso Anticipato: L'accettazione di donazioni volontarie non è considerata uso commerciale. È consentito offrire le Mod in accesso anticipato esclusivo (Early Access) a chi dona o supporta il progetto, a condizione che tale periodo di esclusività temporale non superi il limite massimo di 3 mesi. Oltre tale termine, è vietato vincolare donazioni o pagamenti all'ottenimento di vantaggi funzionali o estetici; il contenuto della Mod deve diventare interamente e gratuitamente accessibile a tutti gli utenti.
+
+Licenza delle Mod e Prevalenza: Le Mod possono essere rilasciate sotto qualsiasi licenza scelta dal creatore. Tuttavia, nessuna licenza applicata a una Mod può annullare, superare o aggirare i divieti imposti dal presente documento sul software base. Chiunque redistribuisca, pacchettizzi o integri una Mod creata da terzi è comunque rigorosamente vincolato al rispetto di tutti i limiti del presente Punto 2.1 (incluso il divieto di monetizzazione permanente e l'obbligo di dipendenza strutturale).
+
+3. Obbligo di Attribuzione e Trasparenza
+In qualsiasi caso in cui la distribuzione sia legittima (avendo superato il requisito del punto 2), è fatto obbligo di:
+
+Mantenere una citazione chiara, visibile e inequivocabile all'autore originale e di eventuali collaboratori principali.
+
+Garantire che qualsiasi contributo apportato al progetto (da parte dell'autore o di altri collaboratori) sia esplicitamente accreditato.
+I crediti devono essere facilmente accessibili e visibili al pubblico (ad esempio, tramite un file dedicato, nella documentazione ufficiale o nell'interfaccia utente del software).
+
+Indicare in modo chiaro ed esplicito quali porzioni del progetto sono state modificate o trasformate rispetto all'originale.
+
+4. Condivisione e Restrizioni sui Lavori Derivati (Share-Alike)
+Chiunque distribuisca un prodotto derivato legittimo (secondo le regole del punto 2) deve rilasciare l'intero prodotto derivato sotto i medesimi e identici termini di questa licenza (GCWLv1). Questa clausola di Share-Alike non si applica alle Modifiche Dipendenti (Mod) definite al Punto 2.1, per le quali la scelta della licenza è libera.
+
+Il codice sorgente deve essere fornito nella sua forma preferenziale per l'apporto di modifiche, escludendo qualsiasi forma di offuscamento o minificazione volta a ostacolarne la comprensione.
+È vietata la distribuzione del software o dei suoi derivati unitamente a misure tecnologiche di protezione (DRM) che impediscano attivamente agli utenti di eseguire versioni modificate del codice.
+Ai fini di questa licenza, anche i software che si collegano (linkano), integrano o dipendono strettamente dal presente software per le loro funzionalità principali sono considerati lavori derivati.
+Deve essere garantita ai futuri utenti la medesima libertà di studio del codice sorgente e le medesime condizioni qui descritte.
+Questa clausola si applica ricorsivamente a tutti i futuri fork o derivati.
+La presente licenza non concede in alcun caso il diritto di sub-licenziare il software originale o i suoi derivati.
+
+5. Concessione di Brevetti e Ritorsione (Patent Retaliation)
+Ogni contributore concede a chiunque riceva una copia del software una licenza di brevetto perpetua, mondiale, non esclusiva e gratuita per l'uso, la modifica e la distribuzione del software.
+Qualora un utente avvii un'azione legale per violazione di brevetto contro l'autore o contro qualsiasi altro utente, sostenendo che il software costituisca una violazione di brevetto, tutte le licenze e i diritti concessi a tale utente ai sensi di questa licenza termineranno immediatamente.
+
+6. Marchi Registrati e Promozione (Trademarks)
+La presente licenza non concede alcun diritto di utilizzare nomi commerciali, marchi registrati, marchi di servizio, loghi o il nome dell'autore originale.
+L'unico utilizzo consentito è quello strettamente necessario per adempiere agli obblighi di attribuzione descritti al punto 3.
+È espressamente vietato utilizzare il nome dell'autore o l'identità visiva del progetto per promuovere, avallare o commercializzare prodotti derivati senza un esplicito e preventivo consenso scritto.
+
+7. Esclusione di Garanzia e Limitazione di Responsabilità
+IL SOFTWARE È FORNITO "COSÌ COM'È", SENZA GARANZIE DI ALCUN TIPO, ESPRESSE O IMPLICITE, INCLUSE, MA NON LIMITATE A, LE GARANZIE DI COMMERCIABILITÀ, IDONEITÀ PER UN FINE PARTICOLARE E NON VIOLAZIONE DEI DIRITTI ALTRUI.
+IL SOFTWARE NON È PROGETTATO NÉ AUTORIZZATO PER L'USO IN AMBIENTI AD ALTO RISCHIO O ATTIVITÀ CRITICHE (ES. SISTEMI MEDICI SALVAVITA, CONTROLLO DEL TRAFFICO AEREO, IMPIANTI NUCLEARI) DOVE UN MALFUNZIONAMENTO POTREBBE CAUSARE MORTE, LESIONI PERSONALI O GRAVI DANNI AMBIENTALI.
+IN NESSUN CASO L'AUTORE O I TITOLARI DEL COPYRIGHT SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNO O ALTRO TIPO DI RESPONSABILITÀ, SIA IN UN'AZIONE DI CONTRATTO, ILLECITO O ALTRO, DERIVANTE DA, O IN CONNESSIONE CON IL SOFTWARE O L'USO O ALTRE TRANSAZIONI NEL SOFTWARE.
+
+L'autore non ha alcun controllo sulle modalità di implementazione o sui dati trattati tramite il software; la piena conformità alle normative vigenti in materia di protezione dei dati personali (es. GDPR) è responsabilità esclusiva dell'utente o del distributore del prodotto derivato.
+
+8. Risoluzione
+Qualsiasi violazione dei termini della presente licenza comporterà la risoluzione automatica e immediata dei diritti qui concessi.
+In caso di risoluzione, l'utente è tenuto a cessare ogni utilizzo, distribuzione o modifica e a distruggere tutte le copie del software in suo possesso.
+Le disposizioni relative all'esclusione di garanzia, limitazione di responsabilità, concessione di brevetti, legge applicabile e giurisdizione sopravvivranno a qualsiasi risoluzione della presente licenza.
+
+9. Clausola di Salvaguardia (Severability)
+Qualora una qualsiasi disposizione della presente licenza venga dichiarata nulla, invalida o inapplicabile da un tribunale o autorità competente, tale invalidità non influirà sulle restanti disposizioni.
+Le restanti clausole continueranno ad avere piena validità ed efficacia legale.
+La disposizione ritenuta inapplicabile sarà interpretata, nei limiti consentiti dalla legge, in modo da riflettere il più fedelmente possibile l'intento originale di protezione e condivisione espresso in questa licenza.
+
+10. Deroghe e Licenze Commerciali
+Per qualsiasi utilizzo commerciale che esuli dalle restrizioni della presente licenza, o per richiedere un'esenzione dai divieti qui elencati, è necessario contattare l'autore originale per negoziare una licenza commerciale separata.
+
+11. Versioni della Licenza
+L'autore originale può pubblicare versioni aggiornate o nuove della General Cooperative Working License (GCWL).
+Una volta pubblicata una nuova versione, l'utente può scegliere di continuare a seguire i termini della versione attuale (v1) o di passare a una qualsiasi versione successiva.
+Non è in alcun caso consentito il passaggio a versioni della licenza cronologicamente precedenti a quella sotto la quale il software è stato ottenuto.
+
+12. Componenti di Terze Parti
+La presente licenza si applica esclusivamente al codice originale scritto dall'autore e dai collaboratori accreditati.
+Eventuali librerie, moduli o componenti di terze parti inclusi nel software rimangono soggetti alle rispettive licenze originali.
+I diritti e gli obblighi derivanti dalla presente licenza si trasferiscono automaticamente ai successori, cessionari o aventi causa dell'autore originale, mantenendo inalterata la validità dei termini nei confronti degli utenti.
+
+13. Legge Applicabile, Giurisdizione e Lingua
+La presente licenza è regolata e interpretata in conformità con le leggi italiane, indipendentemente dal paese di residenza dell'autore originale o dell'utente.
+
+Qualsiasi controversia derivante da o relativa a questa licenza sarà soggetta alla giurisdizione esclusiva del foro di competenza corrispondente alla residenza dell'autore originale.
+
+Qualora l'autore originale risieda al di fuori del territorio italiano, il foro competente prescelto applicherà in ogni caso la legislazione italiana per la risoluzione della controversia.
+
+Qualsiasi controversia legale dovrà essere condotta esclusivamente su base individuale.
+
+L'utente rinuncia esplicitamente al diritto di partecipare a qualsiasi azione legale collettiva (class action), procedimento rappresentativo o azione consolidata contro l'autore.
+
+In caso di accertata violazione della licenza, la parte inadempiente sarà tenuta a rimborsare integralmente all'autore tutte le spese legali e processuali sostenute per la tutela dei propri diritti.
+
+In caso di traduzioni della presente licenza in altre lingue, solo la versione originale in lingua italiana e la versione in lingua inglese sono legalmente vincolanti e prevalgono in caso di discrepanze interpretative.
+
+L’utente si impegna a non compiere atti o rilasciare dichiarazioni volte a danneggiare la reputazione dell'autore o del software. Il mancato esercizio di un diritto o di una disposizione della presente licenza da parte dell'autore non costituisce una rinuncia a tale diritto o disposizione, né impedisce la sua applicazione futura.
+
+Per le violazioni commesse da creatori di Mod che operano esclusivamente come persone fisiche (e non tramite entità giuridiche, società o studi di sviluppo registrati), l'autore originale si impegna a non avviare azioni legali o richieste di rimborso spese senza aver prima inviato un avviso informale. Tale avviso specificherà i termini violati e concederà un termine perentorio di 15 giorni per sanare la violazione. L'azione legale sarà intrapresa in caso di mancata risoluzione entro tale termine o in caso di violazioni recidive.
+
+14. Conformità all'Esportazione e Sanzioni Internazionali
+Il software è soggetto alle leggi e ai regolamenti sul controllo delle esportazioni e delle sanzioni economiche dell'Italia, dell'Unione Europea e di altre giurisdizioni applicabili.
+L'utente dichiara e garantisce di non essere cittadino, residente o localizzato in un Paese o territorio soggetto a embargo, e di non figurare in alcuna lista di entità sanzionate, bandite o ad accesso negato.
+Qualsiasi utilizzo in violazione di tali normative comporta la nullità immediata della presente licenza.
+
+15. Verifica della Conformità (Diritto di Audit)
+Fatta eccezione per le persone fisiche non operanti sotto forma di società o entità giuridica registrata, su ragionevole richiesta scritta dell'autore, qualsiasi entità giuridica che utilizzi o abbia integrato il software è tenuta a fornire, entro 30 giorni, una certificazione formale scritta e firmata da un proprio rappresentante legale o dirigente autorizzato.
+
+Tale certificazione dovrà attestare in modo inequivocabile il pieno e totale rispetto di tutti i termini della presente licenza.
+
+La mancata fornitura di tale certificazione costituirà una violazione sostanziale dell'accordo e comporterà la risoluzione automatica e immediata della licenza ai sensi del Punto 8.
+

@@ -1,0 +1,138 @@
+GCWLv1 - General Cooperative Working License version 1
+
+Copyright (c) 2026 GoodWitchLalya.
+All rights reserved, except as expressly granted below.
+
+The code is open for personal study; for this purpose, no restriction is applied.
+However, direct clones or unfair competition will not be tolerated.
+
+TERMS AND CONDITIONS OF USE AND DISTRIBUTION
+
+1. Private Use and Modification
+Freedom to download, study, compile, and modify the source code is granted exclusively for personal, research, or internal strictly non-commercial purposes.
+Internal use is strictly limited to the single legal entity that performed the original download.
+Access to the software by external consultants, freelancers, or IT service providers, acting exclusively on behalf of the licensed legal entity and bound by confidentiality agreements, is permitted and does not constitute distribution under Point 2.
+The transfer of the software to controlled, affiliated, subsidiary companies, or third parties (including in the event of merger, acquisition, or sale of a business branch) is considered distribution under Point 2.
+The freedom to study the code does not authorize in any way the use of the learned logic, algorithms, or architecture for reverse engineering purposes aimed at creating competing products, even if the final code does not constitute a direct derivative.
+It is expressly forbidden to use the source code, in whole or in part, for the training of artificial intelligence models, machine learning, or Large Language Models (LLM) without a prior written commercial agreement.
+
+2. Significant Transformation and Non-Compete
+Except for Dependent Modifications (Mods) as governed by this license, the distribution (public or private, free or commercial) of the original software or its modified versions is not permitted, unless a significant transformation has been applied.
+The offering of the software or its functions as a service to third parties through remote network interaction (e.g., SaaS, API, web services) is considered distribution in all respects and is subject to the same rules.
+
+The final distributed product (or offered as a service) must be clearly distinguishable from the original, not recognizable as a direct derivative, and must not in any way compete with the original product.
+For the purposes of this license, competition (or unfair competition) means proposing the same core features to the same target audience as the original, or any use that could act as a commercial or functional substitute for the adoption of the original software.
+
+Simple updates, translations, bug fixes, or the addition of secondary features to an unchanged core do not constitute a significant transformation.
+
+Any contribution (code, assets, documentation) voluntarily submitted for direct integration into the original project entails granting the author a perpetual, irrevocable, worldwide, royalty-free, and non-exclusive license.
+
+This license explicitly includes the author's right to use, modify, distribute, commercially exploit, and sub-license such contribution in any form and under any future commercial agreement. This grant is definitive and cannot be withdrawn, in order to guarantee the stability of the entire software.
+
+At the same time, the intention is to value the community's work: the contributors fully retain the intellectual property (copyright) of their original material and preserve the right to utilize it in other personal or commercial projects. The author formally commits to publicly acknowledge every valid contribution by including its creator in the official credits of the software.
+
+Any attempt to circumvent the limitations of this license, particularly regarding the non-compete clause, through code splitting, the use of shell companies, or collateral agreements between different legal entities is strictly prohibited.
+
+Limitations regarding competition and commercial use also extend to any output, data, or results generated directly by the software or through the application of its proprietary logic.
+
+2.1 Exception for Modding (Dependent Modifications)
+Point 2.1 – Exception for Modding (Updated)
+It is explicitly authorized to create and distribute extensions, add-ons, plugins, or modifications (hereinafter referred to as "Mods") that rely on the original software for their functionalities, provided that:
+
+The Mod is structurally dependent: it must not under any circumstances include the main original executable.
+
+The use of original assets is permitted provided that clear attribution is maintained and ownership is not falsely claimed.
+
+The Mod does not compete as a commercial or functional substitute for the original software.
+
+Donations and Early Access: The acceptance of voluntary donations is not considered commercial use. It is permitted to offer Mods in exclusive Early Access to donors or project supporters, provided that this period of temporal exclusivity does not exceed a maximum limit of 3 months. Beyond this term, it is forbidden to tie donations or payments to the unlocking of functional or aesthetic benefits; the Mod content must become fully and freely accessible to all users.
+
+Mod Licensing and Precedence: Mods may be released under any license chosen by the creator. However, no license applied to a Mod can nullify, supersede, or circumvent the prohibitions imposed by this document on the base software. Anyone who redistributes, packages, or integrates a Mod created by third parties remains strictly bound to comply with all the limitations of this Point 2.1 (including the prohibition of permanent monetization and the obligation of structural dependency).
+
+3. Attribution and Transparency Obligation
+In any case where distribution is legitimate (having met the requirement of point 2), it is mandatory to:
+
+Maintain a clear, visible, and unambiguous citation to the original author and any main collaborators.
+
+Ensure that any contribution made to the project (by the author or other collaborators) is explicitly credited.
+Credits must be easily accessible and publicly visible (for example, through a dedicated file, in the official documentation, or in the software's user interface).
+
+Clearly and explicitly indicate which portions of the project have been modified or transformed compared to the original.
+
+4. Sharing and Restrictions on Derivative Works (Share-Alike)
+Anyone who distributes a legitimate derivative product (according to the rules of point 2) must release the entire derivative product under the same identical terms of this license (GCWLv1). This Share-Alike clause does not apply to Dependent Modifications (Mods) as defined in Point 2.1, for which the choice of license is free.
+
+The source code must be provided in its preferred form for making modifications, excluding any form of obfuscation or minification aimed at hindering its understanding.
+The distribution of the software or its derivatives together with technological protection measures (DRM) that actively prevent users from running modified versions of the code is prohibited.
+For the purposes of this license, software that links to, integrates, or strictly depends on this software for its core features is also considered a derivative work.
+Future users must be guaranteed the same freedom to study the source code and the same conditions described herein.
+This clause applies recursively to all future forks or derivatives.
+This license does not under any circumstances grant the right to sub-license the original software or its derivatives.
+
+5. Patent Grant and Retaliation
+Each contributor grants to anyone receiving a copy of the software a perpetual, worldwide, non-exclusive, no-charge patent license to use, modify, and distribute the software.
+If a user institutes patent litigation against the author or any other user alleging that the software constitutes patent infringement, all licenses and rights granted to that user under this license shall terminate immediately.
+
+6. Trademarks and Promotion
+This license does not grant any rights to use trade names, trademarks, service marks, logos, or the name of the original author.
+The only permitted use is that strictly necessary to fulfill the attribution obligations described in point 3.
+It is expressly forbidden to use the author's name or the project's visual identity to promote, endorse, or market derivative products without explicit prior written consent.
+
+7. Disclaimer of Warranty and Limitation of Liability
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+THE SOFTWARE IS NOT DESIGNED OR AUTHORIZED FOR USE IN HIGH-RISK ENVIRONMENTS OR CRITICAL ACTIVITIES (E.G., LIFE-SUPPORT MEDICAL SYSTEMS, AIR TRAFFIC CONTROL, NUCLEAR FACILITIES) WHERE A MALFUNCTION COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE ENVIRONMENTAL DAMAGE.
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The author has no control over how the software is implemented or the data processed through it; full compliance with applicable data protection regulations (e.g., GDPR) is the sole responsibility of the user or the distributor of the derivative product.
+
+8. Termination
+Any violation of the terms of this license will result in the automatic and immediate termination of the rights granted herein.
+In the event of termination, the user must cease all use, distribution, or modification and destroy all copies of the software in their possession.
+The provisions regarding the disclaimer of warranty, limitation of liability, patent grant, applicable law and jurisdiction shall survive any termination of this license.
+
+9. Severability
+If any provision of this license is declared null, invalid, or unenforceable by a court or competent authority, such invalidity shall not affect the remaining provisions.
+The remaining clauses will continue to have full legal validity and effect.
+The provision deemed unenforceable shall be interpreted, to the extent permitted by law, in a way that most closely reflects the original intent of protection and sharing expressed in this license.
+
+10. Waivers and Commercial Licenses
+For any commercial use that falls outside the restrictions of this license, or to request an exemption from the prohibitions listed herein, it is necessary to contact the original author to negotiate a separate commercial license.
+
+11. License Versions
+The original author may publish updated or new versions of the General Cooperative Working License (GCWL).
+Once a new version is published, the user may choose to continue following the terms of the current version (v1) or to switch to any subsequent version.
+Under no circumstances is it permitted to revert to chronologically earlier versions of the license than the one under which the software was obtained.
+
+12. Third-Party Components
+This license applies exclusively to the original code written by the author and accredited collaborators.
+Any third-party libraries, modules, or components included in the software remain subject to their respective original licenses.
+The rights and obligations arising from this license automatically transfer to the successors, assignees, or legal representatives of the original author, maintaining the validity of the terms towards the users unchanged.
+
+13. Applicable Law, Jurisdiction, and Language
+This license is governed by and construed in accordance with Italian laws, regardless of the country of residence of the original author or the user.
+
+Any dispute arising from or related to this license shall be subject to the exclusive jurisdiction of the competent court corresponding to the residence of the original author.
+
+If the original author resides outside the Italian territory, the chosen competent court will in any case apply Italian legislation to resolve the dispute.
+
+Any legal dispute must be conducted exclusively on an individual basis.
+
+The user explicitly waives the right to participate in any class action, representative proceeding, or consolidated action against the author.
+
+In the event of a proven breach of this license, the defaulting party shall be required to fully reimburse the author for all legal and court costs incurred to protect their rights.
+
+In the event of translations of this license into other languages, only the original Italian version and this English version are legally binding and shall prevail in the event of interpretative discrepancies.
+
+The user agrees not to engage in acts or make statements intended to damage the reputation of the author or the software. The failure of the author to exercise or enforce any right or provision of this license shall not constitute a waiver of such right or provision, nor shall it preclude its future enforcement.
+
+For violations committed by Mod creators operating exclusively as natural persons (and not through legal entities, incorporated companies, or registered development studios), the original author commits to not initiating legal action or expense reimbursement claims without first sending an informal notice. This notice will specify the violated terms and grant a strict deadline of 15 days to rectify the violation. Legal action will be pursued in case of failure to resolve the issue within this timeframe or in case of repeated violations.
+
+14. Export Compliance and International Sanctions
+The software is subject to the export control and economic sanctions laws and regulations of Italy, the European Union, and other applicable jurisdictions.
+The user represents and warrants that they are not a citizen, resident, or located in an embargoed country or territory, and do not appear on any list of sanctioned, restricted, or denied entities.
+Any use in violation of such regulations will result in the immediate nullity of this license.
+
+15. Compliance Verification (Audit Right)
+With the exception of natural persons not operating as an incorporated company or registered legal entity, upon reasonable written request from the author, any legal entity using or integrating the software shall provide, within 30 days, a formal written certification signed by an authorized legal representative or executive.
+Such certification must unequivocally attest to full and complete compliance with all terms of this license.
+Failure to provide such certification will constitute a material breach of the agreement and will result in the automatic and immediate termination of the license under Point 8.
